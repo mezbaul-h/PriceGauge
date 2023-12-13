@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/baseline_dashboard_24"
+            android:title="@string/menu_home" />
+        <item
+            android:id="@+id/nav_expenses"
+            android:icon="@drawable/baseline_account_balance_wallet_24"
+            android:title="@string/menu_expenses" />
+    </group>
+
+    <!-- Inflation Section -->
+    <item
+        android:id="@+id/nav_section_inflation"
+        android:title="@string/menu_inflation">
+        <menu>
+            <group android:checkableBehavior="single">
+                <item
+                    android:id="@+id/nav_inflation_personal"
+                    android:title="@string/menu_inflation_personal"
+                    android:icon="@drawable/baseline_trending_up_24" />
+                <item
+                    android:id="@+id/nav_inflation_global"
+                    android:title="@string/menu_inflation_global"
+                    android:icon="@drawable/baseline_travel_explore_24" />
+            </group>
+        </menu>
+    </item>
+
+    <!-- General Section -->
+    <item
+        android:id="@+id/nav_section_general"
+        android:title="@string/menu_general">
+        <menu>
+            <group android:checkableBehavior="single">
+                <item
+                    android:id="@+id/nav_general_settings"
+                    android:title="@string/menu_settings"
+                    android:icon="@drawable/baseline_settings_24" />
+                <item
+                    android:id="@+id/nav_general_help"
+                    android:title="@string/menu_help"
+                    android:icon="@drawable/baseline_help_24" />
+            </group>
+        </menu>
+    </item>
+</menu>

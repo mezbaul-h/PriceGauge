@@ -1,0 +1,35 @@
+<resources>
+    <string name="add_expense">Add Expense</string>
+    <string name="default_input_placeholder">--</string>
+    <string name="overall_inflation">Overall Inflation</string>
+    <string name="inflation_global_zero_placeholder">Global 0.00%</string>
+    <string name="inflation_last_month">Inflation Last Month</string>
+    <string name="personal_expenses">Personal Expenses</string>
+    <string name="personal_inflation">Personal Inflation</string>
+    <string name="placeholder_comma_separated_with_space">%s, %s</string>
+    <string name="placeholder_dash_separated">%s - %s</string>
+    <string name="placeholder_single_value">%s</string>
+    <string name="placeholder_space_separated">%s %s</string>
+    <string name="pricegauge">PriceGauge</string>
+    <string name="pricegauge_copyright">© PriceGauge 2023</string>
+    <string name="to">To</string>
+
+    <string name="app_name">PriceGauge</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="menu_expenses">Expenses</string>
+    <string name="menu_home">Home</string>
+    <string name="menu_gallery">Gallery</string>
+    <string name="menu_slideshow">Slideshow</string>
+    <string name="menu_inflation">Inflation</string>
+    <string name="menu_inflation_global">Global Inflation</string>
+    <string name="menu_inflation_personal">Personal Inflation</string>
+    <string name="menu_help">Help</string>
+    <string name="menu_settings">Settings</string>
+    <string name="menu_general">General</string>
+</resources>

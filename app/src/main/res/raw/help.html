@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <style>
+            body {
+                font-family: Arial, sans-serif;
+                background-color: transparent;
+                color: #e8eaed;
+                margin: 0;
+                padding: 0;
+            }
+
+            .accordion {
+                background-color: #212124;
+                border: 1px solid #4A4D50;
+                margin: 10px;
+                overflow: hidden;
+                border-radius: 4px;
+            }
+
+            .accordion-item {
+                border-bottom: 1px solid #4A4D50;
+                padding: 15px;
+                cursor: pointer;
+            }
+
+            .accordion-item:last-child {
+                border-bottom: none;
+            }
+
+            .accordion-item:hover {
+                background-color: #414144;
+            }
+
+            .accordion-content {
+                padding: 15px;
+                display: none;
+                background-color: #212124;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="accordion">
+            <div class="accordion-item" onclick="toggleAccordion('accordion1')">
+                <strong>Q: Where do I start?</strong>
+            </div>
+            <div class="accordion-content" id="accordion1">
+                <p>A: To begin, navigate to the "Expenses" section in the left sidebar. Track your daily expenses diligently, as the app's inflation calculations are rooted in this data. By keeping a record of your expenditures, the app will provide insights into your expense and inflation increase/decrease rates.</p>
+            </div>
+        </div>
+
+        <div class="accordion">
+            <div class="accordion-item" onclick="toggleAccordion('accordion2')">
+                <strong>Q: How can I add a new expense?</strong>
+            </div>
+            <div class="accordion-content" id="accordion2">
+                <p>A: Adding a new expense is straightforward. Head to the left sidebar and click on "Expenses." Once there, locate the action button at the bottom right, which will open a dialog. Fill in the necessary information, click "Add," and there you have it – you've successfully added your first expense record.</p>
+            </div>
+        </div>
+
+        <script>
+            function toggleAccordion(accordionId) {
+                var accordionContent = document.getElementById(accordionId);
+                if (accordionContent.style.display === "block") {
+                    accordionContent.style.display = "none";
+                } else {
+                    accordionContent.style.display = "block";
+                }
+            }
+        </script>
+    </body>
+</html>

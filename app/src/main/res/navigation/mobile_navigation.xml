@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/nav_home">
+
+    <fragment
+        android:id="@+id/nav_home"
+        android:name="com.example.pricegauge.ui.home.HomeFragment"
+        android:label="@string/menu_home"
+        tools:layout="@layout/fragment_home" />
+
+    <fragment
+        android:id="@+id/nav_expenses"
+        android:name="com.example.pricegauge.ui.expenses.ExpensesFragment"
+        android:label="@string/menu_expenses"
+        tools:layout="@layout/fragment_expenses" />
+
+    <fragment
+        android:id="@+id/nav_inflation_personal"
+        android:name="com.example.pricegauge.ui.inflation.PersonalInflationFragment"
+        android:label="@string/menu_inflation_personal"
+        tools:layout="@layout/fragment_inflation_personal" />
+
+    <fragment
+        android:id="@+id/nav_inflation_global"
+        android:name="com.example.pricegauge.ui.inflation.GlobalInflationFragment"
+        android:label="@string/menu_inflation_global"
+        tools:layout="@layout/fragment_inflation_global" />
+
+    <fragment
+        android:id="@+id/nav_general_help"
+        android:name="com.example.pricegauge.ui.help.HelpFragment"
+        android:label="@string/menu_help"
+        tools:layout="@layout/fragment_help" />
+
+    <fragment
+        android:id="@+id/nav_general_settings"
+        android:name="com.example.pricegauge.ui.settings.SettingsFragment"
+        android:label="@string/menu_settings"
+        tools:layout="@layout/fragment_settings" />
+</navigation>
